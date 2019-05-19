@@ -4,8 +4,8 @@
   "description": "**Сборщики пакетов** (module bundler). Например ***Webpack***.",
   "main": "index.js",
   "scripts": {
-	"dev": "webpack --mode development",
-	"build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/kapav/js16-2#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "npm": "^6.9.0",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2"
